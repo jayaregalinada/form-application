@@ -14313,7 +14313,7 @@ Global.controller("formController", function($scope, $http, $rootScope, $locatio
     $location.path("done");
   };
   return $scope.submitForm = function() {
-    $scope.submitStatus = !$scope.submitStatus;
+    $scope.submitStatus = true;
     $rootScope.header = "Submitting";
     NProgress.inc();
   };

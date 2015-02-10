@@ -24,7 +24,7 @@ Global.controller "formController", ( $scope, $http, $rootScope, $location ) ->
         return
 
     $scope.submitForm = ->
-        $scope.submitStatus = !$scope.submitStatus # true
+        $scope.submitStatus = true
         $rootScope.header = "Submitting"
         NProgress.inc()
         return

@@ -76,7 +76,7 @@
 
         <hr />
 
-        <div class="form-group">
+        <div class="form-group" ng-hide="submitStatus">
             <button ng-disabled="!formform.$valid" type="submit" ng-class="{ 'btn-success': formform.$valid, 'btn-danger': !formform.$valid }" class="btn btn-lg center-block">{# submitText #} <i class="glyphicon glyphicon-chevron-right"></i></button>
         </div>
 
