@@ -1,0 +1,31 @@
+{
+  "name": "form",
+  "version": "0.0.1",
+  "homepage": "http://form.app",
+  "description": "Form Application",
+  "keywords": [
+    "form"
+  ],
+  "author": "Jay Are Galinada",
+  "contributors": [
+    {
+      "name": "Jay Are Galinada",
+      "email": "jayaregalinada@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "gulp-coffee": "*",
+    "gulp-concat": "*",
+    "gulp-header": "*",
+    "gulp-less": "*",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*"
+  },
+  "dependencies": {
+    "bower": "*",
+    "gulp": "*"
+  }
+}
